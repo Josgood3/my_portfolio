@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">Jace Osgood</div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="home" class="hero card">
+      <h1>Welcome — glad you stopped by!</h1>
+      <p>I build data-driven solutions and enjoy turning data into clear, actionable insights.</p>
+    </section>
+
+    <section class="grid" style="margin-top:1rem">
+      <div class="card">
+        <h2 id="about">About Me</h2>
+        <p>I am a data enthusiast with experience in analysis, modeling, and communicating results to technical and non-technical audiences. I enjoy working on projects that combine statistics, engineering, and design to solve real-world problems.</p>
+        <p>Interests: exploratory data analysis, predictive modeling, model interpretability, and reproducible workflows.</p>
+      </div>
+
+      <aside class="card">
+        <h2 id="skills">Skills</h2>
+        <div class="skills-list">
+          <span class="skill">Python</span>
+          <span class="skill">Pandas</span>
+          <span class="skill">NumPy</span>
+          <span class="skill">scikit-learn</span>
+          <span class="skill">TensorFlow</span>
+          <span class="skill">PyTorch</span>
+          <span class="skill">SQL</span>
+          <span class="skill">Data Visualization</span>
+          <span class="skill">Feature Engineering</span>
+          <span class="skill">Statistical Modeling</span>
+          <span class="skill">Model Evaluation</span>
+          <span class="skill">EDA</span>
+          <span class="skill">Big Data (Spark)</span>
+          <span class="skill">Docker</span>
+          <span class="skill">Git</span>
+        </div>
+      </aside>
+    </section>
+
+    <section class="card" style="margin-top:1rem">
+      <h2 id="contact">Contact</h2>
+      <p>If you'd like to connect, add an email or links here.</p>
+    </section>
+
+    <section id="resume" class="card" style="margin-top:1rem">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap">
+        <h2>Resume — Jace Osgood</h2>
+        <div>
+          <button onclick="window.print()" style="background:var(--accent);color:#fff;border:none;padding:.5rem .75rem;border-radius:6px;cursor:pointer">Print / Download</button>
+        </div>
+      </div>
+
+      <section style="margin-top:.75rem">
+        <h3>Profile</h3>
+        <p>Data scientist with a strong foundation in statistical modeling, machine learning, and data engineering. Experienced in building end-to-end analytics pipelines and communicating insights to stakeholders.</p>
+
+        <h3>Experience</h3>
+        <div>
+          <strong>Senior Data Scientist — Acme Analytics</strong>
+          <div style="color:var(--muted);font-size:.95rem">2022 — Present</div>
+          <ul>
+            <li>Led a cross-functional team to deploy production ML models improving retention by 12%.</li>
+            <li>Designed automated feature pipelines using Spark and Airflow, reducing model training time by 40%.</li>
+          </ul>
+        </div>
+
+        <div style="margin-top:.5rem">
+          <strong>Data Scientist — BlueWave Labs</strong>
+          <div style="color:var(--muted);font-size:.95rem">2019 — 2022</div>
+          <ul>
+            <li>Built predictive models (classification/regression) using scikit-learn and XGBoost for business forecasting.</li>
+            <li>Created interactive dashboards and reports to measure campaign performance and KPIs.</li>
+          </ul>
+        </div>
+
+        <h3 style="margin-top:.5rem">Education</h3>
+        <p><strong>M.S. in Data Science</strong>, University of Somewhere — 2017</p>
+
+        <h3 style="margin-top:.5rem">Technical Skills</h3>
+        <div class="skills-list" style="margin-top:.25rem">
+          <span class="skill">Python</span>
+          <span class="skill">Pandas</span>
+          <span class="skill">scikit-learn</span>
+          <span class="skill">TensorFlow</span>
+          <span class="skill">PyTorch</span>
+          <span class="skill">SQL</span>
+          <span class="skill">Spark</span>
+          <span class="skill">Docker</span>
+          <span class="skill">Airflow</span>
+          <span class="skill">Git</span>
+        </div>
+
+        <h3 style="margin-top:.5rem">Selected Projects</h3>
+        <ul>
+          <li><strong>Churn Prediction:</strong> Developed an end-to-end pipeline to predict customer churn, integrated model into product, and reduced churn by 8%.</li>
+          <li><strong>Demand Forecasting:</strong> Time-series models and feature engineering that improved inventory planning accuracy for retail clients.</li>
+        </ul>
+
+        <h3 style="margin-top:.5rem">Contact</h3>
+        <p>Email: <a href="mailto:jace@example.com">jace@example.com</a> • LinkedIn: linkedin.com/in/jace-osgood</p>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+  <small>&copy; Jace Osgood — Built with a sprinkle of curiosity.</small>
+    </div>
+  </footer>
+</body>
+</html>
